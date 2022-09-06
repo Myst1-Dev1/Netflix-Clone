@@ -1,0 +1,32 @@
+header {
+    position:fixed;
+    z-index:999;
+    top:-20px;
+    left:0;
+    right:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 20px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+
+header.black {
+    background:#141414;
+}
+
+header .header--logo a{
+    text-decoration:none;
+    color:crimson;
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .header--user {
+    width:100px;
+}
+
+header .header--user img{
+    width:100%;
+}
