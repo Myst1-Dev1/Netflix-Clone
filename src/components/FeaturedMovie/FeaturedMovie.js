@@ -1,6 +1,7 @@
 import React from "react";
 import './FeaturedMovie.css';
 
+// eslint-disable-next-line
 export default ({item}) => {
 
     let firstDate = new Date(item.first_air_date);

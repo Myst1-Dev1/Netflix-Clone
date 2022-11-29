@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 const icon = require('../../assets/vecna-icon1.png')
 
+// eslint-disable-next-line
 export default ({black}) => {
     return(
         <header className={black ? 'black': ''}>
