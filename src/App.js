@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import MovieRow from "./components/MovieRow/MovieRow";
 import Tmdb from "./Tmdb";
 
+// eslint-disable-next-line
 export default () => {
 
   const [movieList , setMovieList] = useState([]);
@@ -58,7 +59,7 @@ export default () => {
 
       <footer>
         Feito com <span>❤️</span>
-        por <a href="https://myst1-dev1.github.io/Myst1-Dev/" >Myst1 Dev</a> <br/>
+        por <a target="_blank" rel="noreferrer" href="https://myst1-dev1.github.io/Myst1Dev/">Myst1 Dev</a> <br/>
         Direitos de imagem para NetFlix <br/>
         Dados pegos do site Themobiedb.org
       </footer>
