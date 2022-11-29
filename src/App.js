@@ -59,7 +59,7 @@ export default () => {
 
       <footer>
         Feito com <span>❤️</span>
-        por <a target="_blank" rel="noreferrer" href="https://myst1-dev1.github.io/Myst1Dev/">Myst1 Dev</a> <br/>
+        por <a target="_blank" rel="noreferrer" href="https://myst1-dev.netlify.app/">Myst1 Dev</a> <br/>
         Direitos de imagem para NetFlix <br/>
         Dados pegos do site Themobiedb.org
       </footer>
